@@ -1,0 +1,400 @@
+<!DOCTYPE html> 
+
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мій веб-сайт</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Підключення CSS-файлу -->
+
+</head>
+<style>
+#shapka{
+   
+    text-align:center;
+    width:px;
+    
+background:#ffebff ;
+height: 100px;
+padding-top: 50px;
+padding-bottom: 20px;
+
+;}
+#container{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+   width:px;
+   background-color: #ffffff;
+
+display:flex;
+
+}
+#menu  { 
+  
+    width:720px; 
+  height: 500px; 
+  border-radius: 10px;
+  color:white;  
+  background:rgb(255, 193, 252);  
+  padding:5px; 
+ float: left;
+  margin-top: 5px;
+ } 
+
+ #content  { 
+    
+    width:720px;  
+    height: 500px;
+   float: right;
+    padding:5px;  
+    background:rgb(255, 163, 250); 
+
+border-radius: 10px;
+margin-top: 3px;
+margin-bottom: 5px;
+}  
+
+   #bottom { 
+ width:px;  
+ height: 200px;
+ clear:left; 
+ padding:5px;  
+ background:#610068; 
+ margin-right:auto; 
+  margin-left:auto; 
+  border-radius: 5px;
+}
+
+
+
+
+
+</style>
+<body>
+    
+   
+<div id="shapka">
+<h1 style="color: #e336e9;"> K.Beauty Studio</h1>
+<h4 style="color:#ff76f6">Місце,де ти відчуєш себе королевю</h4>
+<style>
+    /* Стилізація кнопки "Кошик" */
+    .buy-button {
+        padding: 10px 20px;
+        background-color: #ff9bf2;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: transform 0.5s ease; /* Плавна анімація */
+    }
+
+
+    /* Стилі для анімації при наведенні */
+    .buy-button:hover {
+        transform: scale(1.8); /* Збільшуємо розмір кнопки */
+    }
+</style>
+ <!-- Кнопка "Кошик" -->
+ 
+
+ <!-- Скрипт для відкриття нової сторінки -->
+ <script>
+   function openCartPage() {
+     // Замініть "cart.html" на URL нової сторінки кошика
+     window.open("‪C:\Users\Admin\Desktop\Ютуб\кошик.html", "_blank");
+   }
+ </script>
+
+<a href="кошик.html" <button class="buy-button">Кошик</button></a>
+
+
+
+
+</div> 
+<div id="container">
+    <h2></h2>
+</div>
+<div align="center">
+<a href="#menu"><button style="height: 500; width: 600">Записатись на послугу онлайн</button> </a>
+</div>
+<div align="center">
+<a href="#content"><button style="height: 500; width: 600">Дізнатись більше про акції та знижки</button> </a>
+</div>
+<div align="center">
+<label for="site-search">Пошук:</label>
+<input type="search" id="site-search" name="q" />
+
+<button>Шукати</button>
+
+</div>
+<div id="menu">
+    <h2 style="color: #464646;" align="center" >Меню</h2>
+    
+  
+    
+
+<h3>  Наші послуги</h3>
+<style>
+    .carousel {
+      position: relative;
+      max-width: 600px;
+      margin: auto;
+    }
+    
+    .carousel-images img {
+      display: none;
+      width: 100%;
+    }
+    
+    .carousel-images img.active {
+      display: block;
+    }
+    
+    .prev, .next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: #333;
+      color: white;
+      border: none;
+      cursor: pointer;
+      padding: 10px;
+      font-size: 18px;
+      transition: background-color 0.3s;
+    }
+    
+    .prev:hover, .next:hover {
+      background-color: #555;
+    }
+    
+    .prev {
+      left: 0;
+    }
+    
+    .next {
+      right: 0;
+    }
+    .carousel {
+      position: relative;
+      max-width: 200px;
+      margin: auto;
+    }
+    
+    .carousel-images img {
+      display: none;
+      width: 100%;
+    }
+    
+    .carousel-images img.active {
+      display: block;
+    }
+    
+    .prev, .next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: #333;
+      color: white;
+      border: none;
+      cursor: pointer;
+      padding: 10px;
+      font-size: 18px;
+      transition: background-color 0.3s;
+    }
+    
+    .prev:hover, .next:hover {
+      background-color: #555;
+    }
+    
+    .prev {
+      left: 0;
+    }
+    
+    .next {
+      right: 0;
+    }
+    
+    
+    
+    
+    
+    </style>
+    <body>
+      <div class="carousel">
+        <div class="carousel-images">
+          <img src="https://drive.google.com/file/d/1COqJP9WmM4BkfSvv_uDh4hiG58xJD27F/view?usp=drive_link" alt="Фото 1">
+          <img src="https://drive.google.com/file/d/1jAaLhnKsZpTDVTHeXTxyQFe59w9jh-47/view?usp=drive_link" alt="Фото 2">
+          <img src="https://drive.google.com/file/d/1IKFhMMldgQiBlOYHItlY2nubYYOyltcY/view?usp=drive_link" alt="Фото 3">
+        </div>
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+      </div>
+    
+      <script>
+        let slideIndex = 0;
+    showSlide(slideIndex);
+    
+    function nextSlide() {
+      showSlide(slideIndex += 1);
+    }
+    
+    function prevSlide() {
+      showSlide(slideIndex -= 1);
+    }
+    
+    function showSlide(index) {
+      let slides = document.getElementsByClassName("carousel-images")[0].getElementsByTagName("img");
+      if (index >= slides.length) {
+        slideIndex = 0;
+      }
+      if (index < 0) {
+        slideIndex = slides.length - 1;
+      }
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].classList.remove("active");
+      }
+      slides[slideIndex].classList.add("active");
+    }
+      </script>
+<form>
+<label for="name">Ім’я:</label>
+<input type="text" id="name" name="name" placeholder="Введіть своє ім’я"><br>
+<label for="password">Пароль:</label>
+<input type="password" id="password" name="password" placeholder="Введіть свій пароль">
+</form>
+<form>
+<label>Оберіть послугу:</label><br>
+<input type="checkbox" id="music" name="interest" value="music">
+<label for="music">Манікюр</label><br>
+
+<input type="checkbox" id="sports" name="interest" value="sports">
+<label for="sports">Нарощення</label><br>
+
+<input type="checkbox" id="reading" name="interest" value="reading">
+<label for="reading">Гігієнічний манікюр</label><br>
+
+<input type="checkbox" id="reading" name="interest" value="reading">
+<label for="reading">Педикюр</label><br>
+
+<input type="checkbox" id="reading" name="interest" value="reading">
+<label for="reading">Парафінотерапія</label>
+
+</form>
+<form>
+
+    <label>Оберіть спосіб оплати:</label><br>
+    <input type="radio" id="creditCard" name="paymentMethod" value="creditCard">
+    <label for="creditCard">Готівка</label><br>
+
+    <input type="radio" id="paypal" name="paymentMethod" value="creditCard">
+    <label for="paypal">Банківська картка</label><br>
+
+    <input type="radio" id="bitcoin" name="paymentMethod" value="bitcoin">
+    <label for="bitcoin">Повна передплата</label><br>
+    <style>
+        /* Стилізація кнопки "Записатися" */
+        .buy-button {
+            padding: 10px 20px;
+            background-color: #ff9bf2;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: transform 0.3s ease; /* Плавна анімація */
+        }
+    
+    
+        /* Стилі для анімації при наведенні */
+        .buy-button:hover {
+            transform: scale(1.1); /* Збільшуємо розмір кнопки */
+        }
+    </style>
+     <!-- Кнопка "Кошик" -->
+     
+    
+     <!-- Скрипт для відкриття нової сторінки -->
+     <script>
+       function openCartPage() {
+         // Замініть "cart.html" на URL нової сторінки кошика
+         window.open("cart.html", "_blank");
+       }
+     </script>
+    
+    <button class="buy-button">Записатися</button>
+</div>
+<div id="content"> 
+    <h2 style="color: #464646;" align="center" >Акції та знижки</h2>
+       <h4>Акція:"Приведи подругу"<br>
+    за кожну приведену вами подругу даруємо знижку -10%<br>
+на наступний запис,за 10 приведених вами подруг даруємо<br>
+безкоштовну процедуру!</h4>
+    <form>
+        <label for="name">Ваше ім’я:</label>
+        <input type="text" id="name" name="name" placeholder="Введіть своє ім’я"><br>
+        <label for="password">Ваш номер телефону:</label>
+        <input type="password" id="password" name="password" placeholder="Введіть свій номер телефону"><br>
+        <label for="name">Ім’я вашої подруги:</label>
+        <input type="text" id="name" name="name" placeholder="Введіть ім’я подруги"><br>
+        <label for="password">Номер телефону подруги:</label>
+        <input type="password" id="password" name="password" placeholder="Введіть її номер телефону">
+       
+       <style>
+        /* Стилізація кнопки "Надіслати" */
+        .buy-button {
+            padding: 10px 20px;
+            background-color: #ff37e4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: transform 0.3s ease; /* Плавна анімація */
+        }
+    
+    
+        /* Стилі для анімації при наведенні */
+        .buy-button:hover {
+            transform: scale(1.1); /* Збільшуємо розмір кнопки */
+        }
+    </style>
+     <!-- Кнопка "Кошик" -->
+     
+    
+     <!-- Скрипт для відкриття нової сторінки -->
+     <script>
+       function openCartPage() {
+         // Замініть "cart.html" на URL нової сторінки кошика
+         window.open("cart.html", "_blank");
+       }
+     </script>
+    
+    <button class="buy-button">Надіслати</button>
+    </form>
+
+    <h4>Акція:"постійний клієнт"<br>
+    на кожне 5 відвідування нашого салону вам<br>
+    дарується знижка -5% на настуне відвідування</h4>
+    <h6 style="color: #5f5e5e;">Кількість ваших відвудувань рахуються автоматично</h6>
+
+
+
+
+
+</div>
+
+<div id="bottom" >
+    <h3 style="color: #d3d3d3;">зв'яжіться з нами!</h3>
+<p style="color: #d3d3d3;">+380635870418</p>
+<form>
+<label for="name">Надішліть ваш відгук:</label>
+    <input type="text" id="name" name="name" placeholder="Ваш відгук"><br>
+<button type="submit">Надіслати</button></form>
+<p style="color: #d3d3d3;"> завдяки вашим відгукам ми щодня удосконалюємось!</p>
+</div>
+</body>
+</html>
